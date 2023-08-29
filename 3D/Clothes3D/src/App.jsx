@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Canvas from'./canvas';
-import Cuztomizer from'./pages/Costuimizer';
+import Customizer from'./pages/Customizer';
 import Home from'./pages/Home';
 
 
@@ -10,7 +10,7 @@ function App() {
     <main className='app transition-all ease-in'>
       <Home />
       <Canvas />
-      <Cuztomizer />
+      <Customizer />
     </main>
   )
 }
