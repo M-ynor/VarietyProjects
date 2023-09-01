@@ -9,7 +9,6 @@ import { downloadCanvasToImage, reader } from "../config/helpers";
 import { download } from "../assets"
 import { fadeAnimation, slideAnimation } from "../config/motion";
 import { FilePicker, Tab, ColorPicker, AIPicker, CustomBtn } from "../components/index";
-
 const Customizer = () => {
     const snap = useSnapshot(state);
     return (
