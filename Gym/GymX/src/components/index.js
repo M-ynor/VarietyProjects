@@ -1,3 +1,9 @@
+import ExerciseDetails from "./ExerciseDetails";
+import Home from "./Home";
+import Nadvar from "./Nadvar";
 
-
-export default index
+export {
+    ExerciseDetails,
+    Home,
+    Nadvar
+}
