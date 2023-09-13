@@ -15,7 +15,7 @@ const CameraRig = ({ children }) => {
         let targetPosition = [-0.4, 0, 2];
         if(snap.intro){
             if(isBreakpoint) targetPosition = [0, 0, 2];
-            if(isBMobile) targetPosition = [0, 0.7, 2.5];
+            if(isBMobile) targetPosition = [0, 0.3, 2.5];
         }else{
             if(isBMobile) targetPosition =[0, 0, 2.5];
             else targetPosition = [0, 0, 2];
@@ -25,7 +25,7 @@ const CameraRig = ({ children }) => {
         //set the model movement smoothly
         easing.damp2(
             group.current.rotation,
-            [state.pointer.y / 10, -state.pointer.x /5, 0],
+            [state.pointer.y / 8, -state.pointer.x /5, 0],
             0.25, delta
         )
     })
