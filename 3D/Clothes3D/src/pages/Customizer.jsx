@@ -81,7 +81,6 @@ const Customizer = () => {
             handleActiveFilterTab(decalType.filterTab)
         }
     }
-
     const handleActiveFilterTab = (tabName) => {
         switch (tabName) {
             case "logoShirt":

@@ -5,6 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.text{
+  font-family:cursive;
+  font-size: 25px;
+  color: #080808;
+  font-weight: bold;
+}
+
 html {
   font-family: "Inter", sans-serif;
 }
