@@ -12,12 +12,9 @@ import { FilePicker, Tab, ColorPicker, AIPicker, CustomBtn } from "../components
 
 const Customizer = () => {
     const snap = useSnapshot(state);
-
     const [file, setFile] = useState('');
-
     const [prompt, setPrompt] = useState('');
     const [generatingImage, setGeneratingImage] = useState(false);
-
     const [activeEditorTab, setActiveEditorTab] = useState("");
     const [activeFilterTab, setActiveFilterTab] = useState({
         logoShirt: true,
